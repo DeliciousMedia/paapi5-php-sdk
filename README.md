@@ -1,17 +1,6 @@
-# Product Advertising API 5.0 SDK for PHP
+# Amazon Product Advertising API 5.0 SDK for PHP
 
-[![Version](https://img.shields.io/packagist/v/amzn/paapi5-php-sdk)](https://img.shields.io/packagist/v/amzn/paapi5-php-sdk) 
-
-[![Total Downloads](https://img.shields.io/packagist/dt/amzn/paapi5-php-sdk.svg?style=flat)](https://packagist.org/packages/amzn/paapi5-php-sdk)
-
-This repository contains the open source PHP SDK that allows you to access the [Product Advertising API](https://webservices.amazon.com/paapi5/documentation/index.html) from your PHP app.
-
-## Installation
-The Product Advertising API PHP SDK can be installed with [Composer](https://getcomposer.org/). The SDK is available via [Packagist](http://packagist.org/) under the [`amzn/paapi5-php-sdk`](https://packagist.org/packages/amzn/paapi5-php-sdk) package. If Composer is installed globally on your system, you can run the following in the base directory of your project to add the SDK as a dependency:
-
-```sh
-composer require amzn/paapi5-php-sdk
-```
+This repository contains the open source PHP SDK for Amazon's [Product Advertising API](https://webservices.amazon.com/paapi5/documentation/index.html) from your PHP app. Amazon no longer seem to have this available on Github, or anywhere other than in the [downloadable examples in their documenatation](https://webservices.amazon.com/paapi5/documentation/quick-start/using-sdk.html); this repository is based on that code. This copy is maintained for client projects.
 
 ## Usage
 > **Note:** This version of the Product Advertising API SDK for PHP requires PHP 5.5 or greater.
